@@ -1,0 +1,57 @@
+.card-img-top {
+    height: 50px;
+    width: 50px;
+}
+
+
+@media only screen {
+    .card {
+        /* display: inline; */
+        text-align: center;
+        background-color: #FDF9F8;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .card {
+        display: inline;
+        /* text-align: center;
+        background-color: aqua; */
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #FDF9F8;
+}
+
+.btn-reload {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    background-color: black;
+}
